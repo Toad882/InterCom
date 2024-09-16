@@ -464,7 +464,7 @@ class Minimal__verbose(Minimal):
         if args.show_samples:
             self.show_outdata(outdata)
 
-    def _read_IO_and_play(self, outdata, frames, time, status):
+    def _read_IO_and_play(self, outdata, frames, time, status, indata=None):
         
         if args.show_samples:
             self.show_indata(indata)
